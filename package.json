@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.7.1"
+  },
+  "name": "week3-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cburel/PT-FE-Week03Bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cburel/PT-FE-Week03Bootstrap/issues"
+  },
+  "homepage": "https://github.com/cburel/PT-FE-Week03Bootstrap#readme"
+}
