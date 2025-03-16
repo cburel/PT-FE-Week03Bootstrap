@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <!-- Links the CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
@@ -12,27 +12,57 @@
     <!-- Navigation bar at the top of the page -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Home</a>
-        <a href="page-two.html">Page Two</a>
+        <a href="page-two.html">Form</a>
     </nav>
-    <!-- Stackable images -->
+    <!-- End nav bar -->
+        <!-- Page header -->
+        <div class="home">
+            <h2>Home</h2>
+        </div>
+        <!-- End page header -->
+    <!-- Stackable images. Row = BS grid -->
     <div class="row">
-        <div class="col-sm-4">
+        <!-- col-sm-4 = column takes up 33% of the row -->
+        <div class="col-sm-4 flowers-pink">
             <div class="img-container">
                 <img src="images/flowers.jpg">
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 flowers-blue">
             <div class="img-container">
                 <img src="images/flowers2.jpg">
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 flowers-pink">
             <div class="img-container">
                 <img src="images/flowers3.jpg">
             </div>
         </div>
     </div>
+    <!-- End BS grid -->
     <!-- Table -->
-
+    <!-- table-responsive makes the table resize according to viewport -->
+    <div class="table-responsive table-container">
+        <!-- table-bordered gives the table a border. table-striped gives it alternating bg colors on each row -->
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th>
+                    Col 1
+                </th>
+                <th>
+                    Col 2
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Cell 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis neque id lorem facilisis molestie nec quis nunc. Proin nibh tortor, placerat at arcu in, blandit porttitor turpis. Sed euismod lorem vel lacus tempus tempor nec eu ex. Mauris laoreet rhoncus facilisis. Sed ac mauris in neque convallis dignissim.
+                </td>
+                <td>
+                    Cell 2. Etiam rutrum sapien sit amet ipsum ornare sagittis. Praesent sit amet elit sed urna hendrerit pellentesque aliquam a sem. Nunc ac tortor mi. Etiam lobortis, ligula at tincidunt convallis, mauris nulla mattis mi, in molestie sapien ipsum eget tellus. Curabitur ac auctor massa.
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- End table -->
 </body>
 </html>
